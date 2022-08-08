@@ -35,6 +35,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 5px;
+    width: 20%;
 }
 .face-icon img {
     width: 40px;
@@ -59,12 +60,13 @@ input {
     align-items: center;
     gap: 75px;
     padding-top: 8px;
+    flex: 1;
 }
 .right-top {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
     gap: 10px;
+    width: 20%;
     
 }
 .right-top a {
